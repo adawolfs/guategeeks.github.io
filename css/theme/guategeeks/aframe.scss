@@ -1,0 +1,21 @@
+.idc-3d-aframe {
+
+    @media screen and (min-width: 768px) {
+        position: fixed;
+        width: 100%;
+        height: 800px;
+        top: 100px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 1500px;
+        width: 1500px;
+        
+    }
+
+}
+.slide-aframe-short-circuit {
+    float: right;
+    width: 1200px;
+    height: 800px;
+}
