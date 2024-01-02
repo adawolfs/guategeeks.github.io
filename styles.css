@@ -1,0 +1,75 @@
+:root {
+    --gg-text-color: rgb(154, 156, 158) !important;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), rgb(169, 235, 255), #ffffff) no-repeat 0 0 !important;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-transform: none !important;
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 200 !important;
+    font-style: normal !important;
+    font-display: swap !important;
+    color: var(--gg-text-color) !important;
+}
+
+h1 {
+    font-weight: 400 !important;
+}
+
+p {
+    font-size: 2.2rem !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: #9d9d9d !important;
+}
+
+a:visited {
+    color: #9d9d9d !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgb(14, 137, 175) !important;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80%;
+}
+
+.guategeeks-contact-us {
+    color: var(--gg-text-color) !important;
+}
+
+.guategeeks-contact-us .bottom-legend span {
+    font-weight: 400;
+}
+
+canvas {
+    width: 100%;
+}
+
+.social-network a {
+    padding-left: 50px;
+}
+
+.social-network a:first-child {
+    padding-left: 0px;
+}
+
